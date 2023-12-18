@@ -13,6 +13,6 @@ namespace DataAccessLayer.Abstract
         void AddCategory(Category category);
         void UpdateCategory(Category category);
         void DeleteCategory(Category category);
-        void GetCategoryById(int id);
+        Category GetCategoryById(int id);
     }
 }

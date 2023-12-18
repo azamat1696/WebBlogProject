@@ -13,6 +13,6 @@ namespace DataAccessLayer.Abstract
         void AddBlog(Blog blog);
         void UpdateBlog(Blog blog);
         void DeleteBlog(Blog blog);
-        void GetBlogById(int id);
+        Blog GetBlogById(int id);
     }
 }
