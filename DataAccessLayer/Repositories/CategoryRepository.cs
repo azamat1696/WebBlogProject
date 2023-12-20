@@ -19,10 +19,25 @@ namespace DataAccessLayer.Repositories
             c.SaveChanges();
         }
 
+        public void Delete(Category t)
+        {
+            throw new NotImplementedException();
+        }
+
         public void DeleteCategory(Category category)
         {
             c.Remove(category);
             c.SaveChanges();
+        }
+
+        public List<Category> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Category GetByID(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Category> GetCategories()
@@ -33,6 +48,16 @@ namespace DataAccessLayer.Repositories
         public Category GetCategoryById(int id)
         {
             return c.Categories.Find(id);
+        }
+
+        public void Insert(Category t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Category t)
+        {
+            throw new NotImplementedException();
         }
 
         public void UpdateCategory(Category category)
